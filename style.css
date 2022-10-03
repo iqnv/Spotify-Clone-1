@@ -1,0 +1,87 @@
+body{
+  background-color: antiquewhite;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+nav ul{
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  height: 60px;
+  background-color: black;
+  color: white;
+}
+nav ul li{
+  padding: 0 12px;
+}
+.brand img{
+  width: 44px;
+  padding: 0 4px;
+
+}
+.brand{
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+
+}
+.container{
+  min-height: 70vh;
+  background: black;
+  color: white;
+  margin: 23px auto;
+  width: 80%;
+  display: flex;
+  border-radius: 12px;
+  padding: 30px;
+  background-image: url('bg.jpg');
+}
+.bottom{
+  position: sticky;
+  background: black;
+  height: 100px;
+  bottom: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  flex-direction: column;
+
+}
+.icons{
+  margin-top: 15px;
+  cursor: pointer;
+}
+#myProgressBar{
+  width: 1000px;
+  cursor: pointer;
+}
+.songItem img{
+  height: 60px;
+  width: 60px;
+  margin: 0 20px;
+  border-radius: 34px;
+}
+.songItem{
+justify-content: center;
+  background: white;
+  color: black;
+  align-items: center;
+  display: flex;
+  margin: 12px 0;
+  border-radius: 20px;
+  height: 50px;
+}
+.itemStamp{
+  margin: 0 12px;
+  cursor: pointer;
+}
+.songInfo{
+  position: absolute;
+  left: 17vw;
+}
+.songInfo img{
+
+}
